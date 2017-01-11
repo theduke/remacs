@@ -1219,7 +1219,7 @@ static struct ablock *free_ablock;
 /* Allocate an aligned block of nbytes.
    Alignment is on a multiple of BLOCK_ALIGN and `nbytes' has to be
    smaller or equal to BLOCK_BYTES.  */
-static void *
+void *
 lisp_align_malloc (size_t nbytes, enum mem_type type)
 {
   void *base, *val;
