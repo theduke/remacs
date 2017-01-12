@@ -192,7 +192,7 @@ You can then run your shiny new Remacs:
 ```
 # Using -q to ignore your .emacs.d, so Remacs starts up quickly.
 # RUST_BACKTRACE is optional, but useful if your instance crashes.
-$ RUST_BACKTRACE=1 src/emacs -q
+$ RUST_BACKTRACE=1 src/remacs -q
 ```
 
 ### Release builds
